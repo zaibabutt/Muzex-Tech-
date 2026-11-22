@@ -1,0 +1,331 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR - Theme Colour */
+.navbar{
+  background: linear-gradient(90deg, #d6339e 0%, #7b2ff7 40%, #1a3cff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 40px;
+}
+
+.logo-box{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* WHITE GOL DABBA - Logo saaf nazar aayega */
+.logo-circle{
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+}
+
+.logo-circle img{
+  width: 158px;
+  height: 158px;
+  object-fit: contain;
+}
+
+.logo-text h2{
+  color: white;
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+.logo-text p{
+  color: white;
+  font-size: 14px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.quote-btn{
+  background: white;
+  color: #333 !important;
+  padding: 10px 22px;
+  border-radius: 30px;
+}
+
+/* HERO */
+.hero{
+  background: linear-gradient(135deg, #1a2ee0 0%, #6a2ff7 30%, #e94ec0 65%, #3b2ff7 100%);
+  text-align: center;
+  padding: 90px 20px 100px;
+  color: white;
+}
+
+.hero h1{
+  font-size: 58px;
+  margin-bottom: 20px;
+}
+
+.hero p{
+  font-size: 18px;
+  line-height: 1.6;
+  opacity: 0.95;
+  margin-bottom: 35px;
+}
+
+.hero-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.btn-white{
+  background: white;
+  color: #7b2ff7;
+  padding: 13px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-outline{
+  border: 1.5px solid white;
+  color: white;
+  padding: 13px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.trusted{
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.about{
+  text-align: center;
+  padding: 70px 20px;
+  background: linear-gradient(180deg, #fff5f8, #f3eaff);
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-tag{
+  background: linear-gradient(90deg, #ffb3d9, #b48cff);
+  color: white;
+  padding: 9px 28px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.about h2{
+  font-size: 48px;
+  margin: 22px 0 18px;
+  color: #23272f;
+  font-weight: 800;
+}
+
+.about h2 span{
+  background: linear-gradient(90deg, #ec4899, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-desc{
+  max-width: 780px;
+  margin: 0 auto 45px;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #333;
+  font-weight: 500;
+}
+
+.about-cards{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.about-card{
+  background: linear-gradient(135deg, #ffb3d9, #c9a0ff, #a78bfa);
+  width: 280px;
+  padding: 40px 25px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(168, 85, 247, 0.25);
+  color: white;
+  transition: 0.3s;
+}
+
+.about-card:hover{
+  transform: translateY(-8px) scale(1.03);
+}
+
+.about-icon{
+  font-size: 42px;
+  margin-bottom: 18px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+.about-card h3{
+  font-size: 22px;
+  margin: 0 0 12px;
+  color: white;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.about-card p{
+  font-size: 15px;
+  line-height: 1.6;
+  color: white;
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  margin: 0;
+}
+/* ===== ABOUT ===== */
+.about{
+  max-width:1200px;
+  margin:0 auto;
+  padding:50px 20px;
+  text-align:center;
+  font-family:'Poppins', Arial, sans-serif;
+}
+.about .small{
+  color:#ec4899;
+  font-weight:700;
+  letter-spacing:3px;
+  font-size:14px;
+}
+.about h1{
+  font-size:44px;
+  font-weight:800;
+  margin:10px 0;
+  color:#1e1b4b;
+}
+.about h1 span{
+  background:linear-gradient(90deg,#ff5ea8,#a855f7,#7c3aed);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.about p{
+  color:#64748b;
+  max-width:700px;
+  margin:0 auto 30px;
+  line-height:1.7;
+}
+.about-cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+.about-card{
+  background:linear-gradient(135deg,#f9a8d4 0%,#f0a6d6 30%,#c4b5fd 70%,#a78bfa 100%);
+  border-radius:18px;
+  padding:25px;
+  color:white;
+  text-align:left;
+}
+/* ===== OUR SERVICES ONLY ===== */
+.services{
+  max-width:1200px;
+  margin:0 auto;
+  text-align:center;
+  padding:40px 20px 60px;
+  font-family:'Poppins', Arial, sans-serif;
+}
+.services .small{
+  color:#ec4899;
+  font-weight:700;
+  letter-spacing:3px;
+  font-size:14px;
+}
+.services h2{
+  font-size:42px;
+  font-weight:800;
+  margin:10px 0 8px;
+  color:#1e1b4b;
+}
+.services h2 span{
+  background:linear-gradient(90deg,#ff5ea8,#a855f7);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.services p.sub{
+  color:#64748b;
+  font-size:16px;
+  margin-bottom:35px;
+}
+.cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+}
+.card{
+  background:linear-gradient(135deg,#f9a8d4 0%,#f0a6d6 30%,#c4b5fd 70%,#a78bfa 100%);
+  border-radius:18px;
+  padding:30px 22px;
+  color:white;
+  text-align:left;
+  box-shadow:0 10px 25px rgba(196,181,253,0.30);
+}
+.card .icon{
+  width:52px;
+  height:52px;
+  background:rgba(255,255,255,0.25);
+  border-radius:12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:26px;
+  margin-bottom:16px;
+}
+.card h3{
+  font-size:19px;
+  font-weight:700;
+  margin-bottom:8px;
+  color:white;
+}
+.card p{
+  font-size:14px;
+  line-height:1.6;
+  color:rgba(255,255,255,0.92);
+  margin-bottom:14px;
+}
+.card a{
+  color:white;
+  font-weight:700;
+  font-size:14px;
+  text-decoration:none;
+}
+@media(max-width:900px){
+  .cards{ grid-template-columns:repeat(2,1fr); }
+}
+@media(max-width:600px){
+  .cards{ grid-template-columns:1fr; }
+  .services h2{ font-size:32px; }
+}
